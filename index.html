@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>POP UP</title>
+</head>
+
+<body onload="iniciaPop();">
+
+    <div id="modal-formulario" class="modal-container">
+        <div class="modal-form">
+            <button class="fechar" onclick="fecharPop()"><b>x<b></button>
+            <p>
+                Aqui pode ser colocado qualquer coisa.<br>
+                Ex: iframe, img, formulários, texto de uma política e etc...
+            </p>
+        </div>
+    </div>
+
+    <button onclick="iniciaPop();">abrir novamente o popup</button>
+
+</body>
+
+<script src="popup.js"></script>
+
+</html>
